@@ -9,15 +9,19 @@ import android.os.Bundle;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
+
 import com.hebut.ctalk.R;
 import com.hebut.ctalk.adapter.CPageAdapter;
 import com.hebut.ctalk.fragment.Home;
+import com.hebut.ctalk.fragment.Inform;
+import com.hebut.ctalk.fragment.Message;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private BottomNavigationBar bottomNavigationBar;
+
     private ViewPager viewPager;
     private List<Fragment> fragments;
 
@@ -36,9 +40,12 @@ public class MainActivity extends AppCompatActivity {
     private void initViewPage() {
         viewPager.setOffscreenPageLimit(5);
         fragments = new ArrayList<>();
+
         fragments.add(new Home(new String[]{"1","2","3"}));
         fragments.add(new Home(new String[]{"4","5","6"}));
         fragments.add(new Home(new String[]{"7","8","9"}));
+        fragments.add(new Message());
+        fragments.add(new Home(new String[]{"1","1","1"}));
         viewPager.setAdapter(new CPageAdapter(getSupportFragmentManager(),fragments));
         viewPager.setCurrentItem(0);
     }
