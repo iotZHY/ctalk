@@ -11,6 +11,10 @@ public class Home extends ListFragment {
     public Home(String[] strings){
         this.strings=strings;
     }
+    public Home(){
+
+    }
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
