@@ -1,11 +1,14 @@
 package com.hebut.ctalk.activity;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import android.annotation.SuppressLint;
+import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
@@ -62,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationBar.setAutoHideEnabled(true);
         bottomNavigationBar.setBackgroundStyle(BottomNavigationBar.BACKGROUND_STYLE_STATIC);
         bottomNavigationBar.setBackgroundColor(R.color.bottomBar);
+        bottomNavigationBar.setActiveColor(R.color.blue);
+        bottomNavigationBar.setInActiveColor(R.color.black);
         bottomNavigationBar
                 .addItem(new BottomNavigationItem(R.mipmap.home, "Home"))
                 .addItem(new BottomNavigationItem(R.mipmap.html, "Html"))

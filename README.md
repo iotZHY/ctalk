@@ -15,8 +15,4 @@
 
 [Markwon](https://github.com/noties/Markwon)
 
-[RichTextEditor](https://github.com/huzhenjie/RichTextEditor)
-
-[RichText](https://github.com/zzhoujay/RichText)
-
 [Android-Rich-text-Editor](https://github.com/chinalwb/Android-Rich-text-Editor)

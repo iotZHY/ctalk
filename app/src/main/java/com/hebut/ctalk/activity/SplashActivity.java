@@ -17,11 +17,9 @@ public class SplashActivity extends AppCompatActivity {
                 .withTargetActivity(MainActivity.class)
                 .withSplashTimeOut(4000)
                 .withBackgroundResource(R.color.white)
-                .withHeaderText("")
                 .withFooterText("Don't Have Copyright")
-                .withBeforeLogoText("CTalk")
-                .withLogo(R.mipmap.logo)
-                .withAfterLogoText("")
+                .withBeforeLogoText("CTalk--技术交流平台")
+                .withLogo(R.mipmap.ct)
                 .create();
         setContentView(easySplashScreenView);
     }
