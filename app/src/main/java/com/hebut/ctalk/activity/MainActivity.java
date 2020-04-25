@@ -1,14 +1,12 @@
 package com.hebut.ctalk.activity;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import android.annotation.SuppressLint;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.View;
+
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
@@ -16,9 +14,9 @@ import com.hebut.ctalk.R;
 import com.hebut.ctalk.adapter.CPageAdapter;
 import com.hebut.ctalk.fragment.Home;
 import com.hebut.ctalk.fragment.New;
-
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity {
     private BottomNavigationBar bottomNavigationBar;
@@ -34,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationBar = findViewById(R.id.bottom_bar);
         initViewPage();
         initBottomNavigation();
-
     }
 
     private void initViewPage() {
