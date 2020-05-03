@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:divider="@color/blue"
+    android:orientation="vertical" >
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_bg"
+        app:tabTextColor="@color/black_overlay"
+        app:tabSelectedTextColor="@color/black"
+        app:tabIndicator="@drawable/tab_selected"
+        app:tabIndicatorColor="@color/bar_color"
+        app:tabTextAppearance="@style/tab_title"
+        app:tabMode="fixed"
+        app:tabBackground="@color/transparent"
+        app:tabRippleColor="@null"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="3dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/mydivider"
+        android:orientation="vertical"
+        android:showDividers="beginning|end">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:textSize="10sp"
+            android:textColor="@color/red"
+            android:text="全部已读" />
+    </LinearLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
