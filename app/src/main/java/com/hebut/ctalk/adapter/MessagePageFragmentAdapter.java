@@ -17,13 +17,15 @@ public class MessagePageFragmentAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        System.out.println("abc+"+position);
+
         if (position == 0) {
             return new SubMessage();
         } else {
+
             return new Inform();
         }
     }
+
 
     @Override
     public int getCount() {
@@ -35,4 +37,5 @@ public class MessagePageFragmentAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         return mTitles[position];
     }
+
 }

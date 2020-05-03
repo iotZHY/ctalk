@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MessageActivity"></activity>
+        android:theme="@style/AppTheme">
         <activity android:name=".activity.MainActivity" />
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
