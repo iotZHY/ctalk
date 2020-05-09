@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="231dp"
+        android:layout_y="462dp"
+        android:text="关于我们" />
+
+    <ImageButton
+        android:id="@+id/shouzangjia"
+        android:layout_width="60dp"
+        android:layout_height="64dp"
+        android:layout_x="236dp"
+        android:layout_y="247dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@mipmap/shoucangjia"
+        tools:srcCompat="@mipmap/shoucangjia" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_x="240dp"
+        android:layout_y="315dp"
+        android:text="收藏夹" />
+
+    <ImageButton
+        android:id="@+id/tiezi"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="241dp"
+        android:background="#FFFFFF"
+        android:tint="#60FFFFFF"
+        app:srcCompat="@mipmap/tiezi" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="222dp"
+        android:text="内容"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="63dp"
+        android:layout_height="68dp"
+        android:layout_x="148dp"
+        android:layout_y="390dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@mipmap/fankui" />
+
+    <ImageButton
+        android:id="@+id/shezhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="389dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@mipmap/shezhi" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="319dp"
+        android:text="博客" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-3dp"
+        android:layout_y="203dp"
+        android:background="@color/splash" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
+        android:layout_x="21dp"
+        android:layout_y="80dp"
+        app:srcCompat="@mipmap/touxiang" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="82dp"
+        android:layout_y="94dp"
+        android:text="123456"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_x="12dp"
+        android:layout_y="164dp"
+        android:text="关注" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="42dp"
+        android:layout_height="33dp"
+        android:layout_x="60dp"
+        android:layout_y="164dp"
+        android:text="粉丝" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_x="116dp"
+        android:layout_y="165dp"
+        android:text="访问" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="43dp"
+        android:layout_height="33dp"
+        android:layout_x="176dp"
+        android:layout_y="166dp"
+        android:text="排名" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="300dp"
+        android:layout_y="177dp"
+        android:text="主页" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-3dp"
+        android:layout_y="203dp"
+        android:background="@color/splash" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="142dp"
+        android:text="4" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="142dp"
+        android:text="12" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="116dp"
+        android:layout_y="144dp"
+        android:text="44" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="181dp"
+        android:layout_y="142dp"
+        android:text="--"
+        android:textSize="24sp" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:layout_x="331dp"
+        android:layout_y="176dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/ic_chevron_right_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="159dp"
+        android:layout_y="460dp"
+        android:text="反馈" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="70dp"
+        android:layout_y="460dp"
+        android:text="设置" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="166dp"
+        android:layout_y="316dp"
+        android:text="问题" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="424dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="488dp"
+        android:background="@color/splash"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="341dp"
+        android:background="@color/splash"
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="368dp"
+        android:text="个人"
+        android:textSize="20sp" />
+
+
+    <ImageButton
+        android:id="@+id/boke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="240dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@mipmap/boke" />
+
+    <TextView
+        android:id="@+id/登陆"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="323dp"
+        android:layout_y="135dp"
+        android:text="登陆" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_x="234dp"
+        android:layout_y="393dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@mipmap/aboutus" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="29dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@mipmap/addfriend" />
+
+    <ImageButton
+        android:id="@+id/login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="307dp"
+        android:layout_y="73dp"
+        app:srcCompat="@mipmap/login" />
+
+</AbsoluteLayout>

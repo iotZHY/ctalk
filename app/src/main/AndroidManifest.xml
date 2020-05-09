@@ -9,12 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.Login"/>
+        <activity android:name=".activity.lookboke"/>
+        <activity android:name=".activity.back"/>
+        <activity android:name=".activity.after"/>
         android:theme="@style/AppTheme">
         <activity android:name=".activity.MainActivity" />
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".activity.AreToolBarActivity"/>
         <activity android:name=".activity.SplashActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

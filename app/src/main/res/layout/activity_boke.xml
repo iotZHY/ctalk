@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/write"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-4dp"
+        android:layout_y="280dp"
+        android:background="#7C7070" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="405dp"
+        android:layout_height="84dp"
+        android:layout_x="3dp"
+        android:layout_y="190dp"
+        android:text="博客2" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="405dp"
+        android:layout_height="84dp"
+        android:layout_x="0dp"
+        android:layout_y="303dp"
+        android:text="博客3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="161dp"
+        android:background="#7C7070" />
+
+    <TextView
+        android:id="@+id/boke"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="181dp"
+        android:layout_y="27dp"
+        android:text="博客" />
+
+    <ImageView
+        android:id="@+id/bokeback"
+        android:layout_width="39dp"
+        android:layout_height="61dp"
+        android:layout_x="15dp"
+        android:layout_y="8dp"
+        app:srcCompat="@mipmap/back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="405dp"
+        android:layout_height="84dp"
+        android:layout_x="0dp"
+        android:layout_y="80dp"
+        android:text="博客1" />
+</AbsoluteLayout>

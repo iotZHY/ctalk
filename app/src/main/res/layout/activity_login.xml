@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    >
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="98dp"
+        android:hint="用户名"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_1"
+        android:layout_marginTop="0dp"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+    />
+    <Button
+        android:id="@+id/bt_1"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_2"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/a"
+        android:text="登录"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
